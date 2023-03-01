@@ -65,7 +65,7 @@ public class CustomItemRepository {
                     Flux<String> insertStatements = items
                             .map(item -> String.format(
                                     "INSERT INTO items (name, final_price, warehouse_id, quantity, measure_type) VALUES ('%s', %f, %d, %d, '%s')",
-                                    item.getName(), 99999D, item.getWarehouseId(), item.getQuantity(), item.getMeasureType()
+                                    item.getName(), null, item.getWarehouseId(), item.getQuantity(), item.getMeasureType()
                             ));
                     //todo final_price should accept BigDecimal, but here it is not accepting it. I don't know why.
                     return insertStatements

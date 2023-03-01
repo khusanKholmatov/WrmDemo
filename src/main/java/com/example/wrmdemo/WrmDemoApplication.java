@@ -42,7 +42,7 @@ public class WrmDemoApplication implements CommandLineRunner {
 class TruckDtoSampleDataGenerator {
 
     private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    private static final int DEFAULT_LENGTH = 10000;
+    private static final int DEFAULT_LENGTH = 1000;
 
     public static String generateRandomString(int length) {
         StringBuilder sb = new StringBuilder(length);
