@@ -1,6 +1,6 @@
 package com.example.wrmdemo.item.repository;
 
-import com.example.wrmdemo.item.entity.Item;
+import com.example.wrmdemo.item.entity.base.Item;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import org.springframework.stereotype.Repository;
 

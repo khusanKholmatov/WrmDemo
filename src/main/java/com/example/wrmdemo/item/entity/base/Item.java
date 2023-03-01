@@ -1,8 +1,11 @@
-package com.example.wrmdemo.item.entity;
+package com.example.wrmdemo.item.entity.base;
 
 import com.example.wrmdemo.dto.BoxDto;
 import com.example.wrmdemo.dto.TruckDto;
 import com.example.wrmdemo.item.dto.ItemDto;
+import com.example.wrmdemo.item.entity.CountedItem;
+import com.example.wrmdemo.item.entity.MeasuredItem;
+import com.example.wrmdemo.item.entity.WeighedItem;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

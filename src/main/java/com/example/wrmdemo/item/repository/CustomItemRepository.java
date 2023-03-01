@@ -1,7 +1,7 @@
 package com.example.wrmdemo.item.repository;
 
 import com.example.wrmdemo.item.dto.ItemResponseDTO;
-import com.example.wrmdemo.item.entity.Item;
+import com.example.wrmdemo.item.entity.base.Item;
 import com.example.wrmdemo.wareHouse.WareHouseDto;
 import io.r2dbc.spi.Connection;
 import io.r2dbc.spi.ConnectionFactory;

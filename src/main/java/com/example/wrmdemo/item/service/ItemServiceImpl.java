@@ -2,9 +2,8 @@ package com.example.wrmdemo.item.service;
 
 import com.example.wrmdemo.dto.BoxDto;
 import com.example.wrmdemo.dto.TruckDto;
-import com.example.wrmdemo.item.dto.ItemDto;
 import com.example.wrmdemo.item.dto.ItemResponseDTO;
-import com.example.wrmdemo.item.entity.Item;
+import com.example.wrmdemo.item.entity.base.Item;
 import com.example.wrmdemo.item.mapper.ItemMapper;
 import com.example.wrmdemo.item.repository.CustomItemRepository;
 import com.example.wrmdemo.item.repository.ItemRepository;
@@ -16,7 +15,6 @@ import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
