@@ -30,3 +30,7 @@ CREATE TABLE IF NOT EXISTS public.items
 
 ALTER TABLE IF EXISTS public.items
     OWNER to postgres;
+
+insert into warehouse (id, name, storing_price) values (1, 'W1', 1100000);
+insert into warehouse (id, name, storing_price) values (2, 'W2', 1200000);
+insert into warehouse (id, name, storing_price) values (3, 'W3', 1300000);
